@@ -31,10 +31,11 @@ const bigNumber = 3459868546848645468968n; //bigint = contains big numbers
 const heros = ["shaktiman", "ironman", "batman"]; // array 
 console.log(heros);
 
+// object
 let myObj = {
     name : "Aayush",
     age : 25,
-}; // object
+}; 
 console.log(myObj);
 
 //function
