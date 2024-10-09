@@ -17,6 +17,15 @@ console.log(myArr);
 myHeros.pop(); // helps to remmove last element of the array we don not have to pass any parameter it directly removes the last value from an array
 console.log(myHeros);
 
+myArr.unshift(9); // add the element to the start of the arrays
+console.log(myArr);
+myHeros.unshift("Spiderman"); // add the element to the start of the arrays
+console.log(myHeros);
+
+myArr.shift(); // removes the element from the start of the arrays
+console.log(myArr);
+myHeros.shift(); // removes the element from the start of the arrays
+console.log(myHeros);
              
 const myArr2 = new Array(1, 2, 3, 4); // other way to write an array
 console.log(myArr2);
