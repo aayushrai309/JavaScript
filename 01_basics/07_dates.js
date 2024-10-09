@@ -7,9 +7,20 @@ console.log(myDate.toISOString());
 console.log(myDate.toJSON());
 console.log(myDate.toLocaleDateString());
 
-let myCreateDate = new Date(2024, 8, 30); // in javascript months starts with zero
-console.log(myCreateDate);
-console.log(myCreateDate.toString());
 
-let myCreateTime = new Date(2024, 8, 30, 5, 30);
-console.log(myCreateTime.toString()); // date is given in the form of year month day hour minutes and seconds
+let myCreatedDate = new Date("01-14-2024");
+console.log(myCreatedDate.toLocaleString());
+
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());
+console.log(Math.floor((Date.now() / 1000))); // convert time into seconds
+
+let newDate = new Date();
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getDay());
+console.log(newDate.getHours());
+
+console.log(`${newDate.getDate()} and the time is ${newDate.getHours()}`)
+
