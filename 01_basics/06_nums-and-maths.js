@@ -25,8 +25,18 @@ console.log(Math.abs(-4)); // abs helps us to convert negative values into posit
 console.log(Math.round(4.6)); // round off the number to the nearest integer
 console.log(Math.ceil(4.2)); // ceil will round off the integer to the highest value eg 4.2 will become 5
 console.log(Math.floor(4.9)); // floor will round off the intger to the lowest value eg 4.2 or 4.9 will become 4
-console.log(Math.min(4, 3, 2, 5));
-console.log(Math.max(4, 3, 2, 5));
+console.log(Math.min(4, 3, 2, 5)); // helps us to find the minimum value from the array
+console.log(Math.max(4, 3, 2, 5)); // helps us to find the maximum value from the array
+
+console.log(Math.random()); // helps us to get any random value from 0 to 1
+
+console.log(Math.floor(Math.random()*10) + 1); // here + 1 is used to avoid the zero so that the value doesnot comes zero
+
+const min = 10;
+const max = 20;
+
+Math.random() * (max - min + 1);
+
 
 
 
