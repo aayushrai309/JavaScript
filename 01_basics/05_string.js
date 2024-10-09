@@ -1,10 +1,12 @@
+// string is basically a primitive datatype which is written in double quotes ("")
+
 const name = "Aayush Rai";
 const repoCount = 50;
 
-console.log(name + " is " + repoCount);
+console.log(name + " is " + repoCount); // + is used in concatenating two strings
 console.log(`my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('aayush-hc');
+const gameName = new String('aayushhc');
 
 // these are string methods/builders
 console.log(gameName.length); //to find length of string
@@ -26,6 +28,7 @@ console.log(newStr.trim()); // trim basically removes unwanted whaitespaces from
 const url = "https://aayush.com/aayush%20rai";
 console.log(url.replace('%20', '')); // replace helps in replacing whatever you want from other string
 
+console.log(gameName.split('')); // split function helps in converting the string into array
 
 
 
