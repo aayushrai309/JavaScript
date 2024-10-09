@@ -26,7 +26,7 @@ console.log(Math.round(4.6)); // round off the number to the nearest integer
 console.log(Math.ceil(4.2)); // ceil will round off the integer to the highest value eg 4.2 will become 5
 console.log(Math.floor(4.9)); // floor will round off the intger to the lowest value eg 4.2 or 4.9 will become 4
 console.log(Math.min(4, 3, 2, 5));
-console.log(Math.min(4, 3, 2, 5));
+console.log(Math.max(4, 3, 2, 5));
 
 
 
