@@ -38,7 +38,6 @@ console.log(myArr);
 console.log(newArr);
 console.log(typeof newArr);
 
-//--------------------------------Slice & Splice-------------------------------------//
 console.log("A", myArr);
 const myn1 =myArr.slice(1, 3); // slice = Creates a shallow copy of an array, without modifying the original array
 console.log(myn1);
