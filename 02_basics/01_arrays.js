@@ -26,6 +26,25 @@ myArr.shift(); // removes the element from the start of the arrays
 console.log(myArr);
 myHeros.shift(); // removes the element from the start of the arrays
 console.log(myHeros);
-             
-const myArr2 = new Array(1, 2, 3, 4); // other way to write an array
-console.log(myArr2);
+
+console.log(myArr.includes(9)); // include function is basically used to ask question from array and it will return answer in boolean (true or false)
+console.log(myHeros.includes("Ironman"));
+
+console.log(myArr.indexOf(45)); // indexoff function tells the position of the element inside the array
+console.log(myHeros.indexOf('Superman'));
+
+const newArr = myArr.join() // join method basically helps in binding the array and converting it into String seperarted by comma (,)
+console.log(myArr);
+console.log(newArr);
+console.log(typeof newArr);
+
+//--------------------------------Slice & Splice-------------------------------------//
+console.log("A", myArr);
+const myn1 =myArr.slice(1, 3); // slice = Creates a shallow copy of an array, without modifying the original array
+console.log(myn1);
+console.log("B", myArr);
+
+const myn2 = myArr.splice(1, 3); // splice =  Changes the contents of the original array by adding, removing, or replacing elements. 
+console.log("org Array ", myArr);
+console.log(myn2);
+
