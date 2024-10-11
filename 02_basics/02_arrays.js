@@ -1,6 +1,10 @@
 const marvelHeros = ["Thor", "Ironman", "Spiderman"];
 const dcHeros = ["Superman", "Flash", "Batman"];
 
+console.log("org array = ", marvelHeros);
+console.log(marvelHeros.sort()) // sort methods is basicallly used to arrange the array in ascending alphabetical order.
+console.log(marvelHeros.reverse()); // reverse mathod is basically used to reverse the array.
+
 marvelHeros.push(dcHeros); // it basically merge array inside an array
 
 console.log(marvelHeros);
