@@ -9,4 +9,7 @@ function sayMyName() {
 
 // sayMyName => this is the reference of the function
 
-sayMyName() // this is the execuation of the function
+sayMyName(); // this is the execuation of the function
+sayMyName(); // in short function means defining once and executing multiple times
+
+
