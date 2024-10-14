@@ -28,6 +28,7 @@ console.log(regularUser);
 
 
 //------------------------------mearging two objects-----------------------------------//
+
 const obj1 = {1: "a", 2: "b"};
 const obj2 = {3: "c", 4: "d"};
 
@@ -65,6 +66,20 @@ console.log(Object.values(tinderUser)); // it will helps to get the the values o
 console.log(Object.entries(tinderUser)); // it will make each key value pair of an object into an array
 console.log(tinderUser.hasOwnProperty("isLogged")); // it helps us to aske some question to the object wheather it has the following property or not and it will return answer in boolean values
 
+
+
+
+//-------------------------------------Object Destructing and JSON Apis-----------------------------------------//
+const course = {
+    courseName: "JavaScript",
+    price: "999",
+    courseTeacher: "Aayush",
+}
+
+// console.log(course.courseTeacher);
+
+const {courseTeacher: teacher} = course; // example of destructing the objects, you can give any name of your own 
+console.log(teacher);
 
 
 
