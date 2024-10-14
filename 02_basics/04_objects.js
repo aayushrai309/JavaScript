@@ -7,7 +7,7 @@ tinderUser.id = "123abc";
 tinderUser.name = "Aayush Rai";
 tinderUser.isLogged = false;
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
 const regularUser = { 
@@ -35,8 +35,36 @@ const obj2 = {3: "c", 4: "d"};
 // const obj3 = Object.assign(obj1, obj2); // it will mearge both the Objects.
 
 //The Object.assign() static method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
-const obj3 = Object.assign({}, obj1, obj2); // {} = parenthesis works as a optional parameter and it will definately mearge bot the objects and gives us the desired result. 
-console.log(obj3);
+const obj3 = Object.assign({}, obj1, obj2); // {} = parenthesis works as a optional parameter/target and the rest will act as source. and if you don't give {} then all the values are stored in obj1.
+console.log("object assign = ",obj3);
+
+// other way to mearge two or more objects by using spread operator(...)
+const obj4 = {...obj1, ...obj2};
+console.log("spread opr = ", obj4);
+
+const users = [
+    {
+        id: 1,
+        email: "aayush@google.com",
+    },
+    {
+        id: 2,
+        email: "avishek@google.com",
+    },
+    {
+        id: 3,
+        email: "smrity@google.com",
+    },
+]
+
+console.log(users[0].email);
+
+console.log(tinderUser);
+console.log(Object.keys(tinderUser)); // it will helps to get the the key of an object and it will store it in an array which makes it easy to iterate a loop on it
+console.log(Object.values(tinderUser)); // it will helps to get the the values of an object and it will store it in an array which makes it easy to iterate a loop on it
+console.log(Object.entries(tinderUser)); // it will make each key value pair of an object into an array
+console.log(tinderUser.hasOwnProperty("isLogged")); // it helps us to aske some question to the object wheather it has the following property or not and it will return answer in boolean values
+
 
 
 
