@@ -15,9 +15,9 @@ const user = {
 };
 
 console.log("org object = ", user);
-console.log(user.isLogged); 
-console.log(user["fullname"]); // special way to access some keys fro  objects.
-console.log(user[mySym]);
+console.log(user.isLogged);  // most of time objects ki values ko access karne ke liye hum (.value) ka hi use karenge.
+console.log(user["fullname"]); // special case to access some keys from objects.
+console.log(user[mySym]); // special case to access the values of an objects.
 
 user.fullname = "Aayush Sanjay Rai"; // correct way to over write the value of objects
 user.email = "aayush@gmail.com";
