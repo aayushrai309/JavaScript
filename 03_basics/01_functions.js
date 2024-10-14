@@ -41,3 +41,38 @@ console.log(loginUserMessage("Aayush Rai"));
 console.log(loginUserMessage()); // Note = Jab bhi aap fuunction me koi value nhi define karte hai tab output me undefined aata hai
 
 
+
+//------------------------Function to Add cart price of a shoping site--------------------------------//
+
+function calculateCartPrice(...num1) { //(...) = known as rest and spread operator. Here it is working as rest operator
+    return num1;
+}
+
+console.log(calculateCartPrice(200, 400, 800));
+
+
+//----------------------Function with Objects---------------------------------//
+
+const user ={
+    username: "aayush",
+    price: 199
+}
+
+function handleObject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+//  handleObject(user); // pass objects in to function
+
+handleObject({ // we can also pass object into the function in this way
+    username: "Avishek",
+    price: 599
+})
+
+
+//-------------------Functions with Array------------------------------------//
+const myNewArray = [200, 400, 600, 800];
+
+function handleArray(getArray) {
+    return getArray[2]
+}
+console.log(handleArray(myNewArray));
