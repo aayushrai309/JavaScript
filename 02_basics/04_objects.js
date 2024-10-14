@@ -69,7 +69,7 @@ console.log(tinderUser.hasOwnProperty("isLogged")); // it helps us to aske some 
 
 
 
-//-------------------------------------Object Destructing and JSON Apis-----------------------------------------//
+//-------------------------------------Object Destructing-----------------------------------------//
 const course = {
     courseName: "JavaScript",
     price: "999",
